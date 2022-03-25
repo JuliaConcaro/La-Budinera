@@ -1,0 +1,325 @@
+body {
+  margin: 20px;
+  padding: 0;
+  overflow: auto;
+  -webkit-box-sizing: border box;
+          box-sizing: border box;
+  font-family: 'Josefin Sans', sans-serif;
+  background-image: url("https://i.pinimg.com/736x/45/22/a0/4522a033f5ae354d8eab05819fa67aef.jpg");
+}
+
+body .div1 {
+  background: linear-gradient(315deg, #f876de 0%, #b9d1eb 74%);
+  padding: 20px;
+  margin: 5px;
+  border-color: #cf6dbc;
+  border-width: 2px;
+  border-style: double;
+}
+
+body .div1 .header1 {
+  background: linear-gradient(315deg, #f876de 0%, #b9d1eb 74%);
+  color: #d60b5c;
+  letter-spacing: 5px;
+  text-shadow: 1px 3px 5px #cf6dbc;
+  width: 300px;
+  border: 2px double;
+  margin: 20px;
+  padding: 10px;
+}
+
+body .div1 .header2 {
+  color: #b3094d;
+  height: auto;
+}
+
+body .menu {
+  background-color: #f5c2d6;
+  margin: 10px;
+  padding: 10px;
+}
+
+body .menu .divmenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .menu .divmenu li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+body .menu .divmenu li a:link {
+  text-decoration: none;
+  color: #25044b;
+}
+
+body .menu .divmenu li a:hover {
+  background-color: #b9d1eb;
+  color: #b3094d;
+  text-decoration: underline;
+}
+
+body .menu .divmenu li a:visited {
+  color: #750960;
+}
+
+body main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3;
+      grid-template-columns: 3;
+  -ms-grid-rows: 6;
+      grid-template-rows: 6;
+}
+
+body main .sectiontitle {
+  color: #b3094d;
+  text-decoration: underline;
+  height: 40px;
+}
+
+body main .header4 {
+  color: #b3094d;
+  height: 40px;
+}
+
+body main .articleheader {
+  color: #750960;
+  font-size: 20px;
+}
+
+body main .articletxt {
+  color: #750960;
+  line-height: 25px;
+}
+
+body main .sectionSN {
+  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm301-beer-1b.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f143277f2561fddfcea0460cc4736b00");
+  color: #750960;
+  border: 2px double;
+  padding: 20px;
+  margin: 20px;
+}
+
+body main .sectionR {
+  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm301-beer-1b.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f143277f2561fddfcea0460cc4736b00");
+  color: #750960;
+  border: 2px double;
+  margin: 20px;
+  padding: 30px;
+}
+
+body main .sectionC {
+  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm301-beer-1b.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f143277f2561fddfcea0460cc4736b00");
+  color: #750960;
+  border: 2px double;
+  margin: 20px;
+  padding: 20px;
+}
+
+body main .sectionC table input {
+  font-family: "Josefin Sans";
+  color: #750960;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+body main .sectionC table textarea {
+  font-family: "Josefin Sans";
+  color: #750960;
+  font-size: 16px;
+  line-height: 20px;
+  max-width: 300%;
+}
+
+body main .sectionC .sectionP {
+  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm301-beer-1b.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f143277f2561fddfcea0460cc4736b00");
+  color: #750960;
+  border: 2px double;
+  margin: 20px;
+  padding: 20px;
+  max-width: 700px;
+}
+
+body main .sectionC .sectionP .budines {
+  background: linear-gradient(315deg, #f876de 0%, #b9d1eb 74%);
+  border-color: #cf6dbc;
+  border-width: 2px;
+  border-style: double;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2;
+      grid-template-columns: 2;
+  -ms-grid-rows: 3;
+      grid-template-rows: 3;
+  max-width: 650px;
+}
+
+body main .sectionC .sectionP .budines .budinesbordes {
+  border-width: 3px;
+  border-color: #750960;
+  border-style: double;
+}
+
+body main .sectionC .sectionP .budines .budinesimg {
+  width: 15rem;
+  height: 15rem;
+  padding: 1rem;
+}
+
+body main .sectionC .sectionP .budines .budinesimg1 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body main .sectionC .sectionP .budines .budinesimg1 .budinesimg1:hover {
+  background-color: #b9d1eb;
+  -webkit-animation-name: budinfondo;
+          animation-name: budinfondo;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+body main .sectionC .sectionP .budines .budinesimg2 {
+  -ms-grid-column: 2;
+  grid-column: 2/2;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body main .sectionC .sectionP .budines .budinesimg2 .budinesimg2:hover {
+  background-color: #b9d1eb;
+  -webkit-animation-name: budinfondo;
+          animation-name: budinfondo;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+body main .sectionC .sectionP .budines .budinesimg3 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 2;
+  grid-row: 2;
+}
+
+body main .sectionC .sectionP .budines .budinesimg3 .budinesimg3:hover {
+  background-color: #b9d1eb;
+  -webkit-animation-name: budinfondo;
+          animation-name: budinfondo;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+body main .sectionC .sectionP .budines .budinesimg4 {
+  -ms-grid-column: 2;
+  grid-column: 2/2;
+  -ms-grid-row: 2;
+  grid-row: 2;
+}
+
+body main .sectionC .sectionP .budines .budinesimg4 .budinesimg4:hover {
+  background-color: #b9d1eb;
+  -webkit-animation-name: budinfondo;
+          animation-name: budinfondo;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+body main .sectionC .sectionP .budines .budinesimg5 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 3;
+  grid-row: 3;
+}
+
+body main .sectionC .sectionP .budines .budinesimg5 .budinesimg5:hover {
+  background-color: #b9d1eb;
+  -webkit-animation-name: budinfondo;
+          animation-name: budinfondo;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+body main .sectionC .sectionP .budines .budinesimg6 {
+  -ms-grid-column: 2;
+  grid-column: 2/2;
+  -ms-grid-row: 3;
+  grid-row: 3;
+}
+
+body main .sectionC .sectionP .budines .budinesimg6 .budinesimg6:hover {
+  background-color: #b9d1eb;
+  -webkit-animation-name: budinfondo;
+          animation-name: budinfondo;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+@-webkit-keyframes budinfondo {
+  from {
+    background-color: #b9d1eb;
+  }
+  to {
+    background-color: #f876de;
+  }
+}
+
+@keyframes budinfondo {
+  from {
+    background-color: #b9d1eb;
+  }
+  to {
+    background-color: #f876de;
+  }
+}
+
+body main .sectionC .sectionU {
+  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm301-beer-1b.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f143277f2561fddfcea0460cc4736b00");
+  color: #750960;
+  border: 2px double;
+  margin: 20px;
+  padding: 20px;
+}
+
+body main .sectionC .sectionU .lovewink {
+  width: 20rem;
+}
+
+body main .sectionC footer {
+  background: linear-gradient(315deg, #f876de 0%, #b9d1eb 74%);
+  color: #750960;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 5;
+  grid-column: 1/6;
+  -ms-grid-row: 6;
+  grid-row: 6;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  body body {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 6fr;
+        grid-template-rows: 6fr;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  body body {
+    -ms-grid-columns: 3fr;
+        grid-template-columns: 3fr;
+    -ms-grid-rows: 6r;
+        grid-template-rows: 6r;
+  }
+}
+/*# sourceMappingURL=style.css.map */
