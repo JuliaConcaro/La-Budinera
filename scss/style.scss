@@ -1,3 +1,15 @@
+@use '_variables.scss';
+@mixin section {
+            background-image: $background-image2;
+            color: $colorSection;
+            border: $borderSection;
+            margin: $marginSection;
+}
+@mixin budinImgHover {
+                        background-color:$background-color-Bhover;
+                        animation-name: budinfondo;
+                        animation-duration: 4s;
+}
 body{
     margin:20px;
     padding:0;
@@ -6,14 +18,14 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     background-image: url("https://i.pinimg.com/736x/45/22/a0/4522a033f5ae354d8eab05819fa67aef.jpg");
     .div1 {
-        background: linear-gradient(315deg, #f876de 0%, #b9d1eb 74%);
+        background: $background;
         padding: 20px;
         margin: 5px;
         border-color:#cf6dbc;
         border-width: 2px;
         border-style: double;
         .header1 {
-            background: linear-gradient(315deg, #f876de 0%, #b9d1eb 74%);
+            background: $background;
             color:#d60b5c;
             letter-spacing: 5px;
             text-shadow:1px 3px 5px#cf6dbc;
@@ -75,24 +87,15 @@ body{
             line-height: 25px;
         }
         .sectionSN {
-            background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm301-beer-1b.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f143277f2561fddfcea0460cc4736b00");
-            color: #750960;
-            border: 2px double;
+            @include section;
             padding: 20px;
-            margin: 20px;
         }
         .sectionR {
-            background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm301-beer-1b.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f143277f2561fddfcea0460cc4736b00");
-            color: #750960;
-            border: 2px double;
-            margin: 20px;
+            @include section;
             padding: 30px;
         }
         .sectionC {
-            background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm301-beer-1b.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f143277f2561fddfcea0460cc4736b00");
-            color: #750960;
-            border: 2px double;
-            margin: 20px;
+            @include section;
             padding: 20px;
             table input {
                 font-family: "Josefin Sans";
@@ -108,14 +111,11 @@ body{
                 max-width: 300%;
             }
         .sectionP {
-            background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm301-beer-1b.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f143277f2561fddfcea0460cc4736b00");
-            color: #750960;
-            border: 2px double;
-            margin: 20px;
+            @include section;
             padding: 20px;
             max-width: 700px;
             .budines {
-                background: linear-gradient(315deg, #f876de 0%, #b9d1eb 74%);
+                background: $background;
                 border-color:#cf6dbc;
                 border-width: 2px;
                 border-style: double;
@@ -136,56 +136,32 @@ body{
                 .budinesimg1 {
                     grid-column: 1/2;
                     grid-row: 1;
-                    .budinesimg1:hover {
-                        background-color:#b9d1eb;
-                        animation-name: budinfondo;
-                        animation-duration: 4s;
-                    }
+                    @include budinImgHover;
                 }
                 .budinesimg2 {
                     grid-column: 2/2;
                     grid-row: 1;
-                    .budinesimg2:hover {
-                        background-color:#b9d1eb;
-                        animation-name: budinfondo;
-                        animation-duration: 4s;
-                    }
+                    @include budinImgHover;
                 }
                 .budinesimg3 {
                     grid-column: 1/2;
                     grid-row: 2;
-                    .budinesimg3:hover {
-                        background-color:#b9d1eb;
-                        animation-name: budinfondo;
-                        animation-duration: 4s;
-                    }
+                    @include budinImgHover;
                 }
                 .budinesimg4 {
                     grid-column: 2/2;
                     grid-row: 2;
-                    .budinesimg4:hover {
-                        background-color:#b9d1eb;
-                        animation-name: budinfondo;
-                        animation-duration: 4s;
-                    }
+                    @include budinImgHover;
                 }
                 .budinesimg5 {
                     grid-column: 1/2;
                     grid-row: 3;
-                    .budinesimg5:hover {
-                        background-color:#b9d1eb;
-                        animation-name: budinfondo;
-                        animation-duration: 4s;
-                    }
+                    @include budinImgHover;
                 }
                 .budinesimg6 {
                     grid-column: 2/2;
                     grid-row: 3;
-                    .budinesimg6:hover {
-                        background-color:#b9d1eb;
-                        animation-name: budinfondo;
-                        animation-duration: 4s;
-                    }
+                    @include budinImgHover;
                 }
                 @keyframes budinfondo {
                     from {background-color: #b9d1eb;}
@@ -194,17 +170,14 @@ body{
             }
         }
         .sectionU {
-            background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm301-beer-1b.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f143277f2561fddfcea0460cc4736b00");
-            color: #750960;
-            border: 2px double;
-            margin: 20px;
+            @include section;
             padding: 20px;
             .lovewink {
                 width: 20rem;
             }
         }
         footer {
-            background: linear-gradient(315deg, #f876de 0%, #b9d1eb 74%);
+            background: $background;
             color: #750960;
             grid-column: 1/6;
             grid-row: 6;
