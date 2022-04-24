@@ -6,8 +6,9 @@
 }
 body {
     font-family: 'Josefin Sans', sans-serif;
-    background-image: url("https://i.pinimg.com/736x/45/22/a0/4522a033f5ae354d8eab05819fa67aef.jpg");
+    background-image: url(https://i.pinimg.com/564x/02/8e/a2/028ea2969ff05cb6a3223d3747442712.jpg);
     margin: 20px;
+    padding: 20px;
 }
 main {
     display: grid;
@@ -15,29 +16,30 @@ main {
     grid-template-rows: 6;
 }
 .header1 {
-    background: linear-gradient(315deg, #f876de 0%, #b9d1eb 74%);
-    color:#d60b5c;
+    background: #b9d1eb;
+    color:#5c0427;
     letter-spacing: 5px;
-    text-shadow:1px 3px 5px#cf6dbc;
+    text-shadow:1px 3px 5px #cf6dbc;
     width: 300px;
     border: 2px double;
     margin: 20px;
     padding: 10px;
 }
 .header2 {
-    color:#b3094d;
+    color:#5c0427;
     height: auto;
+    text-shadow:1px 3px 5px #cf6dbc;
 }
 .div1 {
-    background: linear-gradient(315deg, #f876de 0%, #b9d1eb 74%);
+    background: #f4c4d5;
     padding: 20px;
     margin: 5px;
-    border-color:#cf6dbc;
+    border-color:#5c0427;
     border-width: 2px;
     border-style: double;
 }
 .sectiontitle {
-    color:#b3094d;
+    color:#5c0427;
     text-decoration:underline;
     height: 40px;
 }
@@ -46,15 +48,16 @@ main {
     height: 40px;
 }
 .articleheader {
-    color:#750960;
+    color:#5c0427;
     font-size: 20px;
 }
 .articletxt {
-    color:#750960;
+    color:#5c0427;
     line-height: 25px;
 }
 .menu{
-    background-color:#f5c2d6;
+    background-color:#b9d1eb;
+    border: 2px double;
     margin: 10px;
     padding: 10px;
 }
@@ -68,7 +71,7 @@ main {
     color:#25044b;
 }
 .menu li a:hover{
-    background-color: #b9d1eb;
+    background-color: #f4c4d5;
     color:#b3094d;
     text-decoration: underline;
 }
@@ -81,7 +84,7 @@ main {
 }
 .sectionSN {
     background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm301-beer-1b.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f143277f2561fddfcea0460cc4736b00");
-    color: #750960;
+    color: #5c0427;
     border: 2px double;
     padding: 20px;
     margin: 20px;
@@ -95,41 +98,37 @@ main {
 }
 .sectionC {
     background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm301-beer-1b.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f143277f2561fddfcea0460cc4736b00");
-    color: #750960;
+    color: #5c0427;
     border: 2px double;
     margin: 20px;
-    padding: 20px;
+    padding: 5px;
 }
 table input {
     font-family: "Josefin Sans";
-    color:#750960;
+    color:#5c0427;
     font-size: 16px;
     line-height: 20px;
 }
 table textarea {
     font-family: "Josefin Sans";
-    color:#750960;
+    color:#5c0427;
     font-size: 16px;
     line-height: 20px;
     max-width: 300%;
 }
 .sectionP {
     background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm301-beer-1b.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f143277f2561fddfcea0460cc4736b00");
-    color: #750960;
+    color: #5c0427;
     border: 2px double;
     margin: 20px;
     padding: 20px;
-    max-width: 700px;
 }
 .budines {
-    background: linear-gradient(315deg, #f876de 0%, #b9d1eb 74%);
-    border-color:#cf6dbc;
+    background: #f4c4d5;
+    border-color:#5c0427;
     border-width: 2px;
     border-style: double;
-    display: grid;
-    grid-template-columns: 2;
-    grid-template-rows: 3;
-    max-width: 650px;
+    padding: 20px;
 }
 .budinesimg {
     width: 15rem;
@@ -137,58 +136,64 @@ table textarea {
     padding: 1rem;
 }
 .budinesimg1 {
-    grid-column: 1/2;
-    grid-row: 1;
+    color:#5c0427;
+    line-height: 25px;
+    padding: 1rem;
 }
 .budinesimg1:hover {
     background-color:#b9d1eb;
     animation-name: budinfondo;
-    animation-duration: 4s;
+    animation-duration: 1s;
 }
 .budinesimg2 {
-    grid-column: 2/2;
-    grid-row: 1;
+    color:#5c0427;
+    line-height: 25px;
+    padding: 1rem;
 }
 .budinesimg2:hover {
     background-color:#b9d1eb;
     animation-name: budinfondo;
-    animation-duration: 4s;
+    animation-duration: 1s;
 }
 .budinesimg3 {
-    grid-column: 1/2;
-    grid-row: 2;
+    color:#5c0427;
+    line-height: 25px;
+    padding: 1rem;
 }
 .budinesimg3:hover {
     background-color:#b9d1eb;
     animation-name: budinfondo;
-    animation-duration: 4s;
+    animation-duration: 1s;
 }
 .budinesimg4 {
-    grid-column: 2/2;
-    grid-row: 2;
+    color:#5c0427;
+    line-height: 25px;
+    padding: 1rem;
 }
 .budinesimg4:hover {
     background-color:#b9d1eb;
     animation-name: budinfondo;
-    animation-duration: 4s;
+    animation-duration: 1s;
 }
 .budinesimg5 {
-    grid-column: 1/2;
-    grid-row: 3;
+    color:#5c0427;
+    line-height: 25px;
+    padding: 1rem;
 }
 .budinesimg5:hover {
     background-color:#b9d1eb;
     animation-name: budinfondo;
-    animation-duration: 4s;
+    animation-duration: 1s;
 }
 .budinesimg6 {
-    grid-column: 2/2;
-    grid-row: 3;
+    color:#5c0427;
+    line-height: 25px;
+    padding: 1rem;
 }
 .budinesimg6:hover {
     background-color:#b9d1eb;
     animation-name: budinfondo;
-    animation-duration: 4s;
+    animation-duration: 1s;
 }
 @keyframes budinfondo {
     from {background-color: #b9d1eb;}
@@ -210,20 +215,20 @@ table textarea {
     width: 20rem;
 }
 footer {
-    background: linear-gradient(315deg, #f876de 0%, #b9d1eb 74%);
-    color: #750960;
-    grid-column: 1/6;
-    grid-row: 6;
+    background: #b9d1eb;
+    color: #5c0427;
+    border: 2px double;
+    padding: 20px;
 }
-@media screen and (min-width:320px) and (max-width: 768px) {
-	body {
-    grid-template-columns: 1fr;
-    grid-template-rows: 6fr;
+@media screen and (min-width: 320px) and (max-width: 768px) {
+	div .budines {
+    grid-template-columns: 1;
+    grid-template-rows: 6;
     }
 }
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
-	body {
-    grid-template-columns: 3fr;
-    grid-template-rows: 6r;
+	div .budines {
+    grid-template-columns: 2;
+    grid-template-rows: 3;
     }
 }
